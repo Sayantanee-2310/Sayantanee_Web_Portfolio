@@ -1256,9 +1256,10 @@ footer {
 #sixth_section form {
     font-size: 50px;
     display: flex;
+    flex-direction: column;
     margin: 20px 0px;
     font-size: 50px;
-    padding-left: 150px;
+    padding-left: 0px;
 
 }
 
