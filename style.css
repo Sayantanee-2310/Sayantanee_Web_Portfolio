@@ -1552,15 +1552,12 @@ form button:hover {
 }
 
 .display-bottommiddle {
-    /* width: 50cm; */
-    width: 21.73cm;
-    margin-left: AUTO;
-    /* padding-left: 259px; */
-    padding-left: 50px;
+    width: 20.73cm;
+    margin-left: 96px;
+    padding-left: 20px;
     display: flex;
-    /* justify-items: center; */
     justify-content: space-between;
-    color: #a50438;
+    color: rgb(165, 4, 56);
     font-size: xx-large;
 }
 
