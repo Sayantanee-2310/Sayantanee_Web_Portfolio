@@ -1588,7 +1588,8 @@ form button:hover {
 
     .display-bottommiddle {
         width: 10cm;
-        padding-left: 36px;
+/*         padding-left: 36px; */
+        margin-left:25px;
         font-size: small;
     }
 
@@ -1614,7 +1615,8 @@ form button:hover {
 
     .display-bottommiddle {
         width: 10cm;
-        padding-left: 36px;
+/*         padding-left: 36px; */
+        margin-left:23px;
         font-size: small;
     }
 
@@ -1640,7 +1642,8 @@ form button:hover {
 
     .display-bottommiddle {
         width: 10cm;
-        padding-left: 36px;
+/*         padding-left: 36px; */
+        margin-left:8px;
         font-size: small;
     }
 
