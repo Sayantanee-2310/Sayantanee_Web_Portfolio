@@ -423,7 +423,7 @@ header.sticky {
     animation-delay: 1s;
 }
 
-#first_line {
+.left_section #first_line {
     position: relative;
     animation: up_down 3s ease-out;
     animation-delay: 0.3s;
