@@ -414,13 +414,13 @@ header.sticky {
 }
 
 .buttons a:nth-child(1) {
-    animation: down_top 2.5s ease-in;
-    animation-delay: 0.5s;
+    animation: down_top 2s ease-in;
+    animation-delay: 0.3s;
 }
 
 .buttons a:nth-child(2) {
-    animation: down_top 3s ease-in;
-    animation-delay: 1s;
+    animation: down_top 2s ease-in;
+    animation-delay: 0.4s;
 }
 
 .left_section #first_line {
@@ -878,6 +878,13 @@ main hr {
     padding-top: 55px;
 }
 
+.third_section h1{
+    position: relative;
+}
+
+/* .third_section p{
+    position: relative;
+} */
 #third_section p {
     position: relative;
     padding: 0px 150px 0px 150px;
@@ -888,9 +895,9 @@ main hr {
     line-height: 40px;
     word-spacing: 1px;
     letter-spacing: 1px;
-    animation: up_down 3s ease-in;
+    /* animation: up_down 3s ease-in;
     animation-timeline: view();
-    animation-range: entry 40% cover 40%;
+    animation-range: entry 40% cover 40%; */
 }
 
 
@@ -1287,19 +1294,19 @@ footer {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     position: relative;
-    animation: left_right 7s linear;
-    animation-delay: 3s;
+    /* animation: left_right 7s linear;
+    animation-delay: 3s; */
     
 }
 
-.timeline-content:nth-child(1) {
+/* .timeline-content:nth-child(1) {
     animation: left_right 7s linear;
     animation-delay: 3s;
 }
 .timeline-content:nth-child(2) {
     animation: left_right 7s linear;
     animation-delay: 12s;
-}
+} */
 .timeline-content:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgb(117, 56, 207);
