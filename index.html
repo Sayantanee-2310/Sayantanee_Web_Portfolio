@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Sayantanee's_Protfolio_Web</title>
 
 </head>
@@ -15,7 +17,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo"></div>
+            <div class="logo"></div> 
             <div class="left">Sayantanee's Protfolio</div>
             <div class="right">
                 <ul>
@@ -45,8 +47,8 @@
     <main>
         <section id="first_section">
             <div class="left_section">
-                Hello! Myself <span class="purple"> Sayantanee</span>
-                <div>I'm a student of CSE</div>
+                <div id="first_line">Hello! Myself </div><span class="purple"> Sayantanee</span>
+                <div id="sec_line">I'm a student of CSE</div>
                 <span id="element"></span>
                 <div class="buttons">
                     <a href="Resume_25_03.pdf" target="_blank"><button class="btn">Download Resume</button></a>
@@ -59,7 +61,7 @@
             </div>
         </section>
 
-        <section id="third_section">
+        <section class="third_section" id="third_section">
             <hr>
             <h1>About <div style="margin-left:20px; color:rgb(216, 62, 165);">Me</div>
             </h1>
@@ -274,7 +276,7 @@
 
                 <div class="input-box">
                     <div class="input-field field">
-                        <input type="text" name="phone" placeholder="Phone Number" id="phone" class="item"
+                        <input type="number" name="phone" placeholder="Phone Number" id="phone" class="item"
                             autocomplete="off">
                         <div class="error-txt">please fill the requied details</div>
                     </div>
@@ -360,34 +362,6 @@
         })
     </script>
 
-    <!-- <script src="https://smtpjs.com/v3/smtp.js">
-        const form = document.querySelector("form");
-
-        function sendEmail() {
-            Email.send({
-
-                Host: "smtp.mailendo.com",
-                Username: "santrasayantanee2310@gmail.com",
-                Password: "password",
-                To: 'santrasayantanee2310@gmail.com',
-                From: "santrasayantanee2310@gmail.com",
-                Subject: "This is the subject",
-                Body: "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-
-        }
-
-        form.addEventListener("submit", (e)=>{
-            e.preventDefault();
-
-            sendEmail();
-        })
-    </script> -->
-
-
-
     <script>
         var slideIndex = 1;
         showDivs(slideIndex);
@@ -431,7 +405,21 @@
                 ? 'fa-solid fa-xmark'
                 : 'fa fa-bars'
         }
+
+        ScrollReveal({
+            reset: true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+        });
+
+        ScrollReveal().reveal('#third_section h1',{ delay: 500, origin:'left'});
+        ScrollReveal().reveal('#third_section p',{ delay: 500, origin:'bottom', interval:200});
+        ScrollReveal().reveal('.timeline_content', { delay: 400, origin:'right-bottom',interval:200});
+
     </script>
+
+
 
 </body>
 
