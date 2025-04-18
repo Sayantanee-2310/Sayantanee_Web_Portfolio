@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-<!--     <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Sayantanee's_Protfolio_Web</title>
 
 </head>
@@ -96,23 +96,9 @@
             </h1>
 
             <div class="timeline-items">
-
-                <!-- <div class="timeline-item"></div>
-                    <div class="timeline-dot">
-                        <div class="timeline-date">2019
-                        </div>
-                        <div class="timeline-content">
-                            <h3>Secondary School</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas dolorum dicta, nobis
-                                dolores incidunt ut quisquam nulla quam voluptatum.</p>
-                        </div>
-                </div> -->
-
-
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021
-                    </div>
+                    <div class="timeline-date">2021</div>
                     <div class="timeline-content">
                         <h3>Higher secondary School</h3>
                         <p>I passed Secondary board of examination with 85 marks of percentile.I cleared the higher
@@ -267,7 +253,7 @@
                         <div class="error-txt">Full name is required</div>
                     </div>
                     <div class="input-field field">
-                        <input type="text" name="email" placeholder="Email Address" id="email" class="item"
+                        <input type="email" name="email" placeholder="Email Address" id="email" class="item"
                             autocomplete="off" required>
                         <div class="error-txt">please fill the requied details</div>
                     </div>
@@ -276,7 +262,7 @@
 
                 <div class="input-box">
                     <div class="input-field field">
-                        <input type="number" name="phone" placeholder="Phone Number" id="phone" class="item"
+                        <input type="phone number" name="phone" placeholder="Phone Number" id="phone" class="item"
                             autocomplete="off">
                         <div class="error-txt">please fill the requied details</div>
                     </div>
@@ -406,19 +392,19 @@
                 : 'fa fa-bars'
         }
 
-        // ScrollReveal({
-        //     reset: true,
-        //     distance:'60px',
-        //     duration:2500,
-        //     delay:400
-        // });
+        ScrollReveal({
+            reset: true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+        });
 
-        // ScrollReveal().reveal('#third_section h1',{ delay: 500, origin:'left'});
+        // ScrollReveal().reveal('.timeline-items .timeline-item .timeline-content',{ delay: 500, origin:'left'});
         // ScrollReveal().reveal('#third_section p',{ delay: 500, origin:'bottom', interval:200});
         // ScrollReveal().reveal('.timeline_content', { delay: 400, origin:'right-bottom',interval:200});
 
     </script>
-
+<script src="./main.js"></script>
 
 
 </body>
